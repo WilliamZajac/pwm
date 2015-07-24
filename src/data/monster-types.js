@@ -16,5 +16,11 @@ export default {
     strength: 1.2,
     speed: .8,
     defense: 1.1
+  },
+  tough: {
+    name: "Tough",
+    strength: 1.1,
+    speed: .5,
+    defense: 1.5,
   }
 };
