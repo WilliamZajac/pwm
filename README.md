@@ -2,7 +2,7 @@
 
 mpProductions
 
-Paul Stahmer
+~~Paul Stahmer.~~
 
 ##Developers
 
