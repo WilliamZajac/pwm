@@ -9,9 +9,16 @@
     "react": "^0.13.3",
     "watchify": "^3.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.0",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
   "scripts": {
-    "watch": "watchify -t 6to5ify ./src/game.jsx -o ./dist/bundle.js -v"
+    "watch": "sass watchify -t 6to5ify ./src/components/game.jsx -o ./dist/bundle.js -v"
   },
   "author": "",
   "license": "ISC"
