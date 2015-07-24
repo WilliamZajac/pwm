@@ -1,7 +1,8 @@
 //imports
+@import 'colors';
 
 //styling
 body {
-  background-color: #111;
-  color: #eee;
+  background-color: $body-background-color;
+  color: $white;
 }
